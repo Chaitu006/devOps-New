@@ -1,0 +1,8 @@
+kind: pipeline
+name: default
+
+steps:
+- name: devops
+  image: python
+  commands: 
+  - python server.py
